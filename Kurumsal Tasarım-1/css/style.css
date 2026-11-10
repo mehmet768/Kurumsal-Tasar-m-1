@@ -1,0 +1,322 @@
+/* HEADER */
+html,
+body,
+#cover {
+	height: 100%;
+	font-family: "Montserrat", sans-serif;
+}
+
+
+
+h3 {
+	font-weight: 700;
+	font-size: 40px;
+
+}
+
+.paragraf {
+	font-size: 16px;
+	font-style: italic;
+	margin-bottom: 50px;
+}
+
+
+.btn1 {
+	background-color: #fed136;
+	border-style: none;
+	text-transform: uppercase;
+	font-size: 18px;
+	padding: 20px 40px;
+	color: #fff;
+}
+
+.btn1:hover {
+	background-color: #fff;
+	color: #fed136 !important;
+}
+
+.social-icons {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.social-icon {
+	display: inline;
+}
+
+.navbar-brand {
+	font-family: "Kaushan Script", cursive;
+	font-size: 23px;
+	font-style: italic;
+	font-weight: 700;
+	color: #fed136 !important;
+
+}
+
+#cover {
+	background: url(../img/header/Designer.png) no-repeat center fixed;
+	height: 750px;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+
+.fixed-top {
+	margin-top: 0;
+	background-color: #000;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.header-first-title {
+	margin-top: 20%;
+	color: #fff;
+	font-family: "Droid Serif", serif;
+	font-size: 40px;
+	font-style: italic;
+	line-height: 40px;
+	margin-bottom: 30px;
+}
+
+.header-second-title {
+	color: #fff;
+	font-family: "Montserrat", serif;
+	font-size: 75px;
+	font-weight: 700;
+	margin-bottom: 30px;
+}
+
+
+
+a.nav-link {
+	font-size: 14px;
+	color: #fff !important;
+	transition: color 0.5s ease;
+	-webkit-transition: color 0.5s ease;
+	-moz-transition: color 0.5s ease;
+	-o-transition: color 0.5s ease;
+}
+
+a.nav-link:hover {
+	color: #fed136 !important;
+}
+
+/*SERVİCES*/
+
+#services {
+	padding: 110px 0;
+
+}
+
+
+
+.services-top p {
+	font-size: 16px;
+	font-style: italic;
+	margin-bottom: 50px;
+}
+
+.item-circle {
+	border: 3px solid #fed136;
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+	border-radius: 200px;
+
+}
+
+.services-content i {
+	color: #fed136;
+	line-height: 100px;
+}
+
+.services-content h4 {
+	font-size: 18px;
+	color: #222;
+	font-weight: 700;
+	margin-top: 24px;
+}
+
+.services-content p {
+	font-size: 14px;
+	color: #777;
+	letter-spacing: 1px;
+
+}
+
+
+/*PORTFOLİO*/
+
+#portfolio {
+	background-color: #f7f7f7;
+	padding-bottom: 70px;
+}
+
+.card {
+	border-style: none;
+	margin-bottom: 30px;
+	margin-right: 10px;
+}
+
+.portfolio-content .card-title {
+	font-size: 23px;
+	font-weight: 700;
+}
+
+.portfolio-content .card-subtitle {
+	font-size: 14px;
+	font-style: italic;
+	font-family: "Droid Serif", Serif;
+}
+
+
+/* ABOUT US */
+
+#aboutUs {
+	padding-top: 80px;
+
+}
+
+.aboutUs-content .row {
+	margin-bottom: 90px;
+}
+
+.aboutUs-content h4 {
+	font-size: 28px;
+	font-weight: 700;
+}
+
+.aboutUs-content p {
+	font-family: "Roboto Slap", Serif;
+	font-size: 17px;
+	color: #777;
+}
+
+.aboutUs-content .img-circle {
+	border-radius: 176px;
+	border: 7px solid #f1f1f1;
+}
+
+/* Team */
+#team {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #f9f9f9;
+}
+
+.team-content .team-circle {
+	width: 270px;
+	height: 270px;
+	border-radius: 270px;
+	border: 6px solid #fff;
+	margin-bottom: 20px;
+	margin: 0 auto;
+	background-color: #000;
+}
+
+.team-content h4 {
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.team-content h5 {
+	font-size: 14px;
+	color: #777;
+	font-family: "Roboto Slap", Serif;
+
+}
+
+.team-content .social-icons {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+
+}
+
+.team-content .social-icon .fa-brands {
+	width: 30px;
+	height: 30px;
+	border-radius: 30px;
+	border: 2px solid #000;
+	line-height: 26px;
+}
+
+#team p {
+	margin: 50px;
+	font-family: "Roboto Slap", Serif;
+	font-size: 16px;
+	color: #777;
+}
+
+
+
+/*Contact Us*/
+
+#contact {
+	background: url(../img/contact/contact01.png) no-repeat center fixed;
+	background-color: #000;
+	height: 750px;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	padding: 120px 0;
+	color: #fff;
+}
+
+#name,
+#email,
+#subject {
+	width: 90%;
+	height: 50px;
+	margin-bottom: 26px;
+	border-style: none;
+	border-radius: 3px;
+	padding-left: 20px;
+	margin-left: 5%;
+	font-weight: 700;
+}
+
+form #message {
+	font-weight: 700;
+}
+
+/*Footer*/
+
+#footer {
+	padding: 20px 0;
+
+}
+
+#footer p {
+	color: #555;
+	font-weight: 700;
+	line-height: 40px;
+	font-size: 14px;
+}
+
+#footer .fab {
+	width: 40px;
+	height: 40px;
+	border-radius: 40px;
+	line-height: 40px;
+	background-color: #000;
+	color: #fff;
+	margin-left: 10px;
+
+}
+
+
+
+#footer .fa-brands {
+	width: 40px;
+	height: 40px;
+	border-radius: 40px;
+	line-height: 40px;
+	background-color: #000;
+	color: #fff;
+	margin-left: 10px;
+
+}
